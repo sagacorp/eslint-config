@@ -2,6 +2,19 @@
   "name": "@sagacorp/eslint-config-vue-cli",
   "version": "1.0.0",
   "description": "ESlint config presets",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagacorp/eslint-config.git#main"
+  },
+  "bugs": {
+    "url": "https://github.com/sagacorp/eslint-config/issues"
+  },
+  "homepage": "https://github.com/sagacorp/eslint-config/tree/main#readme",
   "keywords": [
     "eslint"
   ],
