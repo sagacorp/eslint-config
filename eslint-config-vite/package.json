@@ -23,6 +23,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@sagacorp/eslint-config-base": "^1.0.0",
     "vite-plugin-eslint": "^1.6.1"
   },
   "devDependencies": {
