@@ -5,9 +5,12 @@ module.exports = {
     node: true
   },
 
+  plugins: [
+    'simple-import-sort'
+  ],
+
   extends: [
-    'plugin:tailwindcss/recommended',
-    'plugin:simple-import-sort',
+    'plugin:tailwindcss/recommended'
   ],
 
   rules: {
