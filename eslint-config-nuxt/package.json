@@ -1,0 +1,29 @@
+{
+  "name": "@sagacorp/eslint-config-nuxt",
+  "version": "1.0.0",
+  "description": "ESlint config presets",
+  "keywords": [
+    "eslint"
+  ],
+  "author": "SaGa Corp",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config": "^10.0.0",
+    "@sagacorp/eslint-config-base": "^1.0.0",
+    "eslint-plugin-nuxt": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "engines": {
+    "node": "12.x || 14.x || >= 16"
+  },
+  "peerDependencies": {
+    "eslint": ">=6"
+  },
+  "license": "ISC"
+}
