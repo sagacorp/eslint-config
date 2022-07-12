@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-vite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -23,8 +23,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sagacorp/eslint-config-base": "^1.0.0",
-    "vite-plugin-eslint": "^1.6.1"
+    "@sagacorp/eslint-config-base": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
