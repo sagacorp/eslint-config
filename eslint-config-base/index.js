@@ -6,17 +6,15 @@ module.exports = {
   },
 
   plugins: [
+    'import-alias',
     'simple-import-sort'
-  ],
-
-  extends: [
-    'plugin:tailwindcss/recommended'
   ],
 
   rules: {
     camelcase: 'off',
     'arrow-parens': ['error', 'as-needed'],
-    'tailwindcss/no-custom-classname': 'off',
+    'import-alias/import-alias': ['error', {relativeDepth: 0, aliases: [{ alias: '@', matcher: '^src' }]}],
+    'import/extensions': ['error', { vue: 'always' }],
     'simple-import-sort/imports': ['error',
       {
         groups: [

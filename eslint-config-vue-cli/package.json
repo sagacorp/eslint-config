@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-vue-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -23,7 +23,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sagacorp/eslint-config-base": "^1.0.0",
+    "@sagacorp/eslint-config-base": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/eslint-config-typescript": "^11.0.0"
