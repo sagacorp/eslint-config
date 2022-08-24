@@ -14,7 +14,7 @@ module.exports = {
     camelcase: 'off',
     'arrow-parens': ['error', 'as-needed'],
     'import-alias/import-alias': ['error', {relativeDepth: 0, aliases: [{ alias: '@', matcher: '^src' }]}],
-    'import/extensions': ['error', { vue: 'always' }],
+    'import/extensions': ['error', 'always', { js: 'never' }],
     'simple-import-sort/imports': ['error',
       {
         groups: [
