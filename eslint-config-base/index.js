@@ -14,7 +14,7 @@ module.exports = {
     camelcase: 'off',
     'arrow-parens': ['error', 'as-needed'],
     'import-alias/import-alias': ['error', {relativeDepth: 0, aliases: [{ alias: '@', matcher: '^src' }]}],
-    'import/extensions': ['error', 'always', { js: 'never' }],
+    'import/extensions': ['error', 'always', { js: 'never', jsx: 'never', ts: 'never' }],
     'simple-import-sort/imports': ['error',
       {
         groups: [

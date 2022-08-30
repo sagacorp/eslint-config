@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-base",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
