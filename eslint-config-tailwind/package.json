@@ -1,6 +1,6 @@
 {
-  "name": "@sagacorp/eslint-config-vue-cli",
-  "version": "1.1.0",
+  "name": "@sagacorp/eslint-config-tailwind",
+  "version": "2.0.0",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -23,18 +23,15 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sagacorp/eslint-config-base": "^1.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "@vue/eslint-config-typescript": "^11.0.0"
+    "eslint-plugin-tailwindcss": "^3.6.0"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
-    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-eslint-plugin": "^5.0.6",
     "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
-    "node": "12.x || 14.x || >= 16"
+    "node": "14.x || 16.x || >= 18"
   },
   "peerDependencies": {
     "eslint": ">=6"

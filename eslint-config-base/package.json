@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-base",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -23,23 +23,23 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@vue/eslint-config-standard": "^7.0.0",
-    "eslint-formatter-gitlab": "^3.0.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint-formatter-gitlab": "^4.0.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-import-alias": "^1.2.0",
     "eslint-plugin-n": "^15.2.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-vue": "^9.1.1"
   },
   "devDependencies": {
     "eslint": "^8.0.1",
-    "eslint-plugin-eslint-plugin": "^4.0.1",
+    "eslint-plugin-eslint-plugin": "^5.0.6",
     "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
-    "node": "12.x || 14.x || >= 16"
+    "node": "14.x || 16.x || >= 18"
   },
   "peerDependencies": {
     "eslint": ">=6"
