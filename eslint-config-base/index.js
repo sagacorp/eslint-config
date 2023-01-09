@@ -42,6 +42,7 @@ module.exports = {
     'vue/no-deprecated-filter': 'error',
     'vue/no-deprecated-slot-scope-attribute': 'error',
     'vue/no-empty-component-block': 'error',
+    'vue/no-required-prop-with-default': 'error',
     'vue/no-static-inline-styles': 'error',
     'vue/no-this-in-before-route-enter': 'error',
     'vue/no-undef-components': ['error', { ignorePatterns: ['router(\\-\\w+)+', 'VTooltip', 'i18n'] }],
