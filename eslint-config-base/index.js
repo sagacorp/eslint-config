@@ -47,6 +47,7 @@ module.exports = {
     'vue/no-this-in-before-route-enter': 'error',
     'vue/no-undef-components': ['error', { ignorePatterns: ['router(\\-\\w+)+', 'VTooltip', 'i18n'] }],
     'vue/no-useless-mustaches': 'error',
+    'vue/object-curly-spacing': ['error', 'always'],
     'vue/padding-line-between-blocks': 'error',
     'vue/prefer-separate-static-class': 'error',
     'vue/prefer-template': 'error',
@@ -54,6 +55,7 @@ module.exports = {
     'vue/require-direct-export': 'error',
     'vue/require-explicit-emits': 'error',
     'vue/singleline-html-element-content-newline': 'error',
+    'vue/template-curly-spacing': 'error',
     'vue/v-for-delimiter-style': 'error',
   },
 
