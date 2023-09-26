@@ -42,6 +42,7 @@ module.exports = {
     'vue/comma-spacing': ['error'],
     'vue/comma-style': ['error'],
     'vue/component-tags-order': ['error', { order: ['template', 'script', 'style'] }],
+    'vue/custom-event-name-casing': ['error', 'kebab-case'],
     'vue/dot-location': ['error', 'property'],
     'vue/dot-notation': ['error'],
     'vue/eqeqeq': ['error', 'always', { null: 'ignore' }],
