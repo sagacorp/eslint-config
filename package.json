@@ -5,5 +5,9 @@
     "eslint-config-nuxt",
     "eslint-config-vite",
     "eslint-config-vue-cli"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  }
 }
