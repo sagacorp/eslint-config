@@ -1,10 +1,7 @@
 {
   "private": true,
   "workspaces": [
-    "eslint-config-base",
-    "eslint-config-nuxt",
-    "eslint-config-vite",
-    "eslint-config-vue-cli"
+    "eslint-config-*"
   ],
   "dependencies": {},
   "devDependencies": {
