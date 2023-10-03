@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-nuxt",
-  "version": "2.0.0",
+  "version": "2.0.6",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@nuxtjs/eslint-config": "^12.0.0",
-    "@sagacorp/eslint-config-base": "^2.0.0",
+    "@sagacorp/eslint-config-base": "^2.0.6",
     "eslint-plugin-nuxt": "^4.0.0"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@sagacorp/eslint-config-vue2",
-  "version": "2.0.3",
+  "version": "2.0.6",
   "description": "ESlint config presets",
   "main": "index.js",
   "files": [
@@ -23,8 +23,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@sagacorp/eslint-config-base": "^2.0.0",
-    "@sagacorp/eslint-config-typescript": "^2.0.0",
+    "@sagacorp/eslint-config-base": "^2.0.6",
+    "@sagacorp/eslint-config-typescript": "^2.0.6",
     "@vue/eslint-config-typescript": "^11.0.0"
   },
   "devDependencies": {
